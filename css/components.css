@@ -409,4 +409,11 @@
 
 .custom-card.legendary .card-inner-border {
     border-color: rgba(148, 0, 211, 0.5);
+}
+
+/* Esconde o menu hambúrguer no desktop */
+@media (min-width: 900px) {
+  .menu-toggle {
+    display: none !important;
+  }
 } 
